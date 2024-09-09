@@ -3,6 +3,13 @@
     {
       "url": "/",
       "name": "Dashboards",
+      "permission_array": [
+        "filiado-read",
+        "chamado-read",
+        "processos-read",
+        "atendimento-read",
+        "etiqueta-read"
+      ],
       "icon": "menu-icon tf-icons bx bx-home-smile",
       "slug": "dashboard",
       "badge": [
