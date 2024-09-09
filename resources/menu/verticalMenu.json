@@ -4,14 +4,11 @@
       "url": "/",
       "name": "Dashboards",
       "permission_array": [
-        "filiado-read",
-        "chamado-read",
-        "processos-read",
-        "atendimento-read",
-        "etiqueta-read"
+        "editor"
       ],
       "icon": "menu-icon tf-icons bx bx-home-smile",
       "slug": "dashboard",
+      "permission_name": "editor",
       "badge": [
         "danger",
         "5"
@@ -20,12 +17,14 @@
         {
           "url": "/",
           "name": "Analytics",
-          "slug": "dashboard-analytics"
+          "slug": "dashboard-analytics",
+          "permission_name": "editor"
         },
         {
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/dashboard/crm",
           "name": "CRM",
           "slug": "dashboard-crm",
+          "permission_name": "editor",
           "target": "_blank",
           "badge": [
             "label-primary fs-tiny",
@@ -36,6 +35,7 @@
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/ecommerce/dashboard",
           "name": "eCommerce",
           "slug": "app-ecommerce-dashboard",
+          "permission_name": "editor",
           "target": "_blank",
           "badge": [
             "label-primary fs-tiny",
@@ -46,6 +46,7 @@
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/logistics/dashboard",
           "name": "Logistics",
           "slug": "app-logistics-dashboard",
+          "permission_name": "editor",
           "target": "_blank",
           "badge": [
             "label-primary fs-tiny",
@@ -56,6 +57,7 @@
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/academy/dashboard",
           "name": "Academy",
           "slug": "app-academy-dashboard",
+          "permission_name": "editor",
           "target": "_blank",
           "badge": [
             "label-primary fs-tiny",
@@ -68,31 +70,37 @@
       "name": "Layouts",
       "icon": "menu-icon tf-icons bx bx-layout",
       "slug": "layouts",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "layouts/without-menu",
           "name": "Without menu",
-          "slug": "layouts-without-menu"
+          "slug": "layouts-without-menu",
+          "permission_name": "editor"
         },
         {
           "url": "layouts/without-navbar",
           "name": "Without navbar",
-          "slug": "layouts-without-navbar"
+          "slug": "layouts-without-navbar",
+          "permission_name": "editor"
         },
         {
           "url": "layouts/container",
           "name": "Container",
-          "slug": "layouts-container"
+          "slug": "layouts-container",
+          "permission_name": "editor"
         },
         {
           "url": "layouts/fluid",
           "name": "Fluid",
-          "slug": "layouts-fluid"
+          "slug": "layouts-fluid",
+          "permission_name": "editor"
         },
         {
           "url": "layouts/blank",
           "name": "Blank",
           "slug": "layouts-blank",
+          "permission_name": "editor",
           "target": "_blank"
         }
       ]
@@ -101,6 +109,7 @@
       "name": "Front Pages",
       "icon": "menu-icon tf-icons bx bx-store",
       "slug": "front-pages",
+      "permission_name": "editor",
       "badge": [
         "label-primary fs-tiny",
         "Pro"
@@ -110,30 +119,35 @@
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/landing",
           "name": "Landing",
           "slug": "front-pages-landing",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/pricing",
           "name": "Pricing",
           "slug": "front-pages-pricing",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/payment",
           "name": "Payment",
           "slug": "front-pages-payment",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/checkout",
           "name": "Checkout",
           "slug": "front-pages-checkout",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/front-pages/help-center",
           "name": "Help Center",
           "slug": "front-pages-help-center",
+          "permission_name": "editor",
           "target": "_blank"
         }
       ]
@@ -142,6 +156,7 @@
       "name": "Laravel Crud",
       "icon": "menu-icon tf-icons bx bxl-php",
       "slug": "laravel-example",
+      "permission_name": "editor",
       "badge": [
         "label-primary fs-tiny",
         "Pro"
@@ -151,18 +166,23 @@
           "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/laravel/user-management",
           "name": "User Management",
           "slug": "laravel-example-user-management",
+          "permission_name": "editor",
           "target": "_blank"
         }
       ]
     },
     {
-      "menuHeader": "Apps & Pages"
+      "menuHeader": "Apps & Pages",
+      "permission_array": [
+        "editor"
+      ]
     },
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/email",
       "name": "Email",
       "icon": "menu-icon tf-icons bx bx-envelope",
       "slug": "app-email",
+      "permission_name": "editor",
       "target": "_blank",
       "badge": [
         "label-primary fs-tiny",
@@ -174,6 +194,7 @@
       "name": "Chat",
       "icon": "menu-icon tf-icons bx bx-chat",
       "slug": "app-chat",
+      "permission_name": "editor",
       "target": "_blank",
       "badge": [
         "label-primary fs-tiny",
@@ -185,6 +206,7 @@
       "name": "Calendar",
       "icon": "menu-icon tf-icons bx bx-calendar",
       "slug": "app-calendar",
+      "permission_name": "editor",
       "target": "_blank",
       "badge": [
         "label-primary fs-tiny",
@@ -196,6 +218,7 @@
       "name": "Kanban",
       "icon": "menu-icon tf-icons bx bx-grid",
       "slug": "app-kanban",
+      "permission_name": "editor",
       "target": "_blank",
       "badge": [
         "label-primary fs-tiny",
@@ -206,21 +229,25 @@
       "name": "Account Settings",
       "icon": "menu-icon tf-icons bx bx bx-dock-top",
       "slug": "pages-account-settings",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "pages/account-settings-account",
           "name": "Account",
-          "slug": "pages-account-settings-account"
+          "slug": "pages-account-settings-account",
+          "permission_name": "editor"
         },
         {
           "url": "pages/account-settings-notifications",
           "name": "Notifications",
-          "slug": "pages-account-settings-notifications"
+          "slug": "pages-account-settings-notifications",
+          "permission_name": "editor"
         },
         {
           "url": "pages/account-settings-connections",
           "name": "Connections",
-          "slug": "pages-account-settings-connections"
+          "slug": "pages-account-settings-connections",
+          "permission_name": "editor"
         }
       ]
     },
@@ -228,23 +255,27 @@
       "name": "Authentications",
       "icon": "menu-icon tf-icons bx bx-lock-open-alt",
       "slug": "auth",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "auth/login-basic",
           "name": "Login",
           "slug": "auth-login-basic",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "auth/register-basic",
           "name": "Register",
           "slug": "auth-register-basic",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "auth/forgot-password-basic",
           "name": "Forgot Password",
           "slug": "auth-forgot-password-basic",
+          "permission_name": "editor",
           "target": "_blank"
         }
       ]
@@ -253,129 +284,156 @@
       "name": "Misc",
       "icon": "menu-icon tf-icons bx bx-cube-alt",
       "slug": "pages-misc",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "pages/misc-error",
           "name": "Error",
           "slug": "pages-misc-error",
+          "permission_name": "editor",
           "target": "_blank"
         },
         {
           "url": "pages/misc-under-maintenance",
           "name": "Under Maintenance",
           "slug": "pages-misc-under-maintenance",
+          "permission_name": "editor",
           "target": "_blank"
         }
       ]
     },
     {
-      "menuHeader": "Components"
+      "menuHeader": "Components",
+      "permission_array": [
+        "editor"
+      ]
     },
     {
       "name": "Cards",
       "icon": "menu-icon tf-icons bx bx-collection",
       "slug": "cards-basic",
+      "permission_name": "editor",
       "url": "cards/basic"
     },
     {
       "name": "User interface",
       "icon": "menu-icon tf-icons bx bx-box",
       "slug": "ui",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "ui/accordion",
           "name": "Accordion",
-          "slug": "ui-accordion"
+          "slug": "ui-accordion",
+          "permission_name": "editor"
         },
         {
           "url": "ui/alerts",
           "name": "Alerts",
-          "slug": "ui-alerts"
+          "slug": "ui-alerts",
+          "permission_name": "editor"
         },
         {
           "url": "ui/badges",
           "name": "Badges",
-          "slug": "ui-badges"
+          "slug": "ui-badges",
+          "permission_name": "editor"
         },
         {
           "url": "ui/buttons",
           "name": "Buttons",
-          "slug": "ui-buttons"
+          "slug": "ui-buttons",
+          "permission_name": "editor"
         },
         {
           "url": "ui/carousel",
           "name": "Carousel",
-          "slug": "ui-carousel"
+          "slug": "ui-carousel",
+          "permission_name": "editor"
         },
         {
           "url": "ui/collapse",
           "name": "Collapse",
-          "slug": "ui-collapse"
+          "slug": "ui-collapse",
+          "permission_name": "editor"
         },
         {
           "url": "ui/dropdowns",
           "name": "Dropdowns",
-          "slug": "ui-dropdowns"
+          "slug": "ui-dropdowns",
+          "permission_name": "editor"
         },
         {
           "url": "ui/footer",
           "name": "Footer",
-          "slug": "ui-footer"
+          "slug": "ui-footer",
+          "permission_name": "editor"
         },
         {
           "url": "ui/list-groups",
           "name": "List Groups",
-          "slug": "ui-list-groups"
+          "slug": "ui-list-groups",
+          "permission_name": "editor"
         },
         {
           "url": "ui/modals",
           "name": "Modals",
-          "slug": "ui-modals"
+          "slug": "ui-modals",
+          "permission_name": "editor"
         },
         {
           "url": "ui/navbar",
           "name": "Navbar",
-          "slug": "ui-navbar"
+          "slug": "ui-navbar",
+          "permission_name": "editor"
         },
         {
           "url": "ui/offcanvas",
           "name": "Offcanvas",
-          "slug": "ui-offcanvas"
+          "slug": "ui-offcanvas",
+          "permission_name": "editor"
         },
         {
           "url": "ui/pagination-breadcrumbs",
           "name": "Pagination & Breadcrumbs",
-          "slug": "ui-pagination-breadcrumbs"
+          "slug": "ui-pagination-breadcrumbs",
+          "permission_name": "editor"
         },
         {
           "url": "ui/progress",
           "name": "Progress",
-          "slug": "ui-progress"
+          "slug": "ui-progress",
+          "permission_name": "editor"
         },
         {
           "url": "ui/spinners",
           "name": "Spinners",
-          "slug": "ui-spinners"
+          "slug": "ui-spinners",
+          "permission_name": "editor"
         },
         {
           "url": "ui/tabs-pills",
           "name": "Tabs & Pills",
-          "slug": "ui-tabs-pills"
+          "slug": "ui-tabs-pills",
+          "permission_name": "editor"
         },
         {
           "url": "ui/toasts",
           "name": "Toasts",
-          "slug": "ui-toasts"
+          "slug": "ui-toasts",
+          "permission_name": "editor"
         },
         {
           "url": "ui/tooltips-popovers",
           "name": "Tooltips & Popovers",
-          "slug": "ui-tooltips-popovers"
+          "slug": "ui-tooltips-popovers",
+          "permission_name": "editor"
         },
         {
           "url": "ui/typography",
           "name": "Typography",
-          "slug": "ui-typography"
+          "slug": "ui-typography",
+          "permission_name": "editor"
         }
       ]
     },
@@ -383,16 +441,19 @@
       "name": "Extended UI",
       "icon": "menu-icon tf-icons bx bx-copy",
       "slug": "extended",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "extended/ui-perfect-scrollbar",
           "name": "Perfect Scrollbar",
-          "slug": "extended-ui-perfect-scrollbar"
+          "slug": "extended-ui-perfect-scrollbar",
+          "permission_name": "editor"
         },
         {
           "url": "extended/ui-text-divider",
           "name": "Text Divider",
-          "slug": "extended-ui-text-divider"
+          "slug": "extended-ui-text-divider",
+          "permission_name": "editor"
         }
       ]
     },
@@ -400,25 +461,32 @@
       "url": "icons/boxicons",
       "icon": "menu-icon tf-icons bx bx-crown",
       "name": "Boxicons",
-      "slug": "icons-boxicons"
+      "slug": "icons-boxicons",
+      "permission_name": "editor"
     },
     {
-      "menuHeader": "Forms & Tables"
+      "menuHeader": "Forms & Tables",
+      "permission_array": [
+        "editor"
+      ]
     },
     {
       "name": "Form Elements",
       "icon": "menu-icon tf-icons bx bx-detail",
       "slug": "forms",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "forms/basic-inputs",
           "name": "Basic Inputs",
-          "slug": "forms-basic-inputs"
+          "slug": "forms-basic-inputs",
+          "permission_name": "editor"
         },
         {
           "url": "forms/input-groups",
           "name": "Input groups",
-          "slug": "forms-input-groups"
+          "slug": "forms-input-groups",
+          "permission_name": "editor"
         }
       ]
     },
@@ -426,16 +494,19 @@
       "name": "Form Layouts",
       "icon": "menu-icon tf-icons bx bx-detail",
       "slug": "form-layouts",
+      "permission_name": "editor",
       "submenu": [
         {
           "url": "form/layouts-vertical",
           "name": "Vertical Form",
-          "slug": "form-layouts-vertical"
+          "slug": "form-layouts-vertical",
+          "permission_name": "editor"
         },
         {
           "url": "form/layouts-horizontal",
           "name": "Horizontal Form",
-          "slug": "form-layouts-horizontal"
+          "slug": "form-layouts-horizontal",
+          "permission_name": "editor"
         }
       ]
     },
@@ -444,6 +515,7 @@
       "icon": "menu-icon tf-icons bx bx-list-check",
       "name": "Form Validation",
       "slug": "form-validation",
+      "permission_name": "editor",
       "target": "_blank",
       "badge": [
         "label-primary fs-tiny",
@@ -454,13 +526,15 @@
       "url": "tables/basic",
       "icon": "menu-icon tf-icons bx bx-table",
       "name": "Tables",
-      "slug": "tables-basic"
+      "slug": "tables-basic",
+      "permission_name": "editor"
     },
     {
       "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/tables/datatables-basic",
       "icon": "menu-icon tf-icons bx bx-grid",
       "name": "Datatables",
       "slug": "tables-datatables",
+      "permission_name": "editor",
       "target": "_blank",
       "badge": [
         "label-primary fs-tiny",
@@ -468,13 +542,17 @@
       ]
     },
     {
-      "menuHeader": "Misc"
+      "menuHeader": "Misc",
+      "permission_array": [
+        "editor"
+      ]
     },
     {
       "url": "https://github.com/themeselection/sneat-bootstrap-html-laravel-admin-template-free/issues",
       "icon": "menu-icon tf-icons bx bx-support",
       "name": "Support",
       "slug": "support",
+      "permission_name": "editor",
       "target": "_blank"
     },
     {
@@ -482,6 +560,7 @@
       "icon": "menu-icon tf-icons bx bx-file",
       "name": "Documentation",
       "slug": "documentation",
+      "permission_name": "editor",
       "target": "_blank"
     }
   ]
